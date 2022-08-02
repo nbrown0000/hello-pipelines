@@ -9,7 +9,7 @@
 pool:
   vmImage: 'windows-latest'
 
-container: mcr.microsoft.com/dotnet/core/sdk:3.0
+#container: mcr.microsoft.com/dotnet/core/sdk:3.0
 
 steps:
 - powershell: echo Hello World!
