@@ -12,11 +12,12 @@ pool:
 container: mcr.microsoft.com/dotnet/core/sdk:3.0
 
 steps:
-- task: DotNetCoreCLI@2
-  inputs: 
-    command: build
+- script: echo Hello World
+#- task: DotNetCoreCLI@2
+#  inputs: 
+#    command: build
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'test'
-    projects: '**/*Tests*.csproj'
+#- task: DotNetCoreCLI@2
+#  inputs:
+#    command: 'test'
+#    projects: '**/*Tests*.csproj'
