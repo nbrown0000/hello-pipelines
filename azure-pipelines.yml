@@ -12,7 +12,7 @@ pool:
 container: mcr.microsoft.com/dotnet/core/sdk:3.0
 
 steps:
-- script: echo Hello World
+- powershell: echo Hello World!
 #- task: DotNetCoreCLI@2
 #  inputs: 
 #    command: build
